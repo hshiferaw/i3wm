@@ -1,0 +1,1885 @@
+%!PS-Adobe-3.0
+%%Title: i3_guide.rmd
+%%For: hermes
+%%Creator: VIM - Vi IMproved 8.1 (2018 May 18)
+%%CreationDate: Tue Nov 20 13:27:02 2018
+%%DocumentData: Clean8Bit
+%%Orientation: Portrait
+%%Pages: (atend)
+%%PageOrder: Ascend
+%%BoundingBox: 59 49 564 800
+%%DocumentMedia: A4 595 842 0 () ()
+%%DocumentNeededResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%DocumentSuppliedResources: procset VIM-Prolog 1.4 1
+%%+ encoding VIM-latin1 1.0 0
+%%Requirements: duplex collate color
+%%EndComments
+%%BeginDefaults
+%%PageResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%PageMedia: A4
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset VIM-Prolog
+%%BeginDocument: /usr/share/vim/vim81/print/prolog.ps
+%!PS-Adobe-3.0 Resource-ProcSet
+%%Title: VIM-Prolog
+%%Version: 1.4 1
+%%EndComments
+% Editing of this file is NOT RECOMMENDED.  You run a very good risk of causing
+% all PostScript printing from VIM failing if you do.  PostScript is not called
+% a write-only language for nothing!
+/packedarray where not{userdict begin/setpacking/pop load def/currentpacking
+false def end}{pop}ifelse/CP currentpacking def true setpacking
+/bd{bind def}bind def/ld{load def}bd/ed{exch def}bd/d/def ld
+/db{dict begin}bd/cde{currentdict end}bd
+/T true d/F false d
+/SO null d/sv{/SO save d}bd/re{SO restore}bd
+/L2 systemdict/languagelevel 2 copy known{get exec}{pop pop 1}ifelse 2 ge d
+/m/moveto ld/s/show ld /ms{m s}bd /g/setgray ld/r/setrgbcolor ld/sp{showpage}bd
+/gs/gsave ld/gr/grestore ld/cp/currentpoint ld
+/ul{gs UW setlinewidth cp UO add 2 copy newpath m 3 1 roll add exch lineto
+stroke gr}bd
+/bg{gs r cp BO add 4 -2 roll rectfill gr}bd
+/sl{90 rotate 0 exch translate}bd
+L2{
+/sspd{mark exch{setpagedevice}stopped cleartomark}bd
+/nc{1 db/NumCopies ed cde sspd}bd
+/sps{3 db/Orientation ed[3 1 roll]/PageSize ed/ImagingBBox null d cde sspd}bd
+/dt{2 db/Tumble ed/Duplex ed cde sspd}bd
+/c{1 db/Collate ed cde sspd}bd
+}{
+/nc{/#copies ed}bd
+/sps{statusdict/setpage get exec}bd
+/dt{statusdict/settumble 2 copy known{get exec}{pop pop pop}ifelse
+statusdict/setduplexmode 2 copy known{get exec}{pop pop pop}ifelse}bd
+/c{pop}bd
+}ifelse
+/ffs{findfont exch scalefont d}bd/sf{setfont}bd
+/ref{1 db findfont dup maxlength dict/NFD ed{exch dup/FID ne{exch NFD 3 1 roll
+put}{pop pop}ifelse}forall/Encoding findresource dup length 256 eq{NFD/Encoding
+3 -1 roll put}{pop}ifelse NFD dup/FontType get 3 ne{/CharStrings}{/CharProcs}
+ifelse 2 copy known{2 copy get dup maxlength dict copy[/questiondown/space]{2
+copy known{2 copy get 2 index/.notdef 3 -1 roll put pop exit}if pop}forall put
+}{pop pop}ifelse dup NFD/FontName 3 -1 roll put NFD definefont pop end}bd
+CP setpacking
+(\004)cvn{}bd
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%BeginResource: encoding VIM-latin1
+%%BeginDocument: /usr/share/vim/vim81/print/latin1.ps
+%!PS-Adobe-3.0 Resource-Encoding
+%%Title: VIM-latin1
+%%Version: 1.0 0
+%%EndComments
+/VIM-latin1[
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma /minus /period /slash
+/zero /one /two /three /four /five /six /seven
+/eight /nine /colon /semicolon /less /equal /greater /question
+/at /A /B /C /D /E /F /G
+/H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W
+/X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+/grave /a /b /c /d /e /f /g
+/h /i /j /k /l /m /n /o
+/p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
+/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
+/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
+/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
+/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis]
+/Encoding defineresource pop
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%EndProlog
+%%BeginSetup
+595 842 0 sps
+1 nc
+T F dt
+T c
+%%IncludeResource: font Courier
+/_F0 /VIM-latin1 /Courier ref
+/F0 10 /_F0 ffs
+%%IncludeResource: font Courier-Bold
+/_F1 /VIM-latin1 /Courier-Bold ref
+/F1 10 /_F1 ffs
+%%IncludeResource: font Courier-Oblique
+/_F2 /VIM-latin1 /Courier-Oblique ref
+/F2 10 /_F2 ffs
+%%IncludeResource: font Courier-BoldOblique
+/_F3 /VIM-latin1 /Courier-BoldOblique ref
+/F3 10 /_F3 ffs
+/UO -1 d
+/UW 0.5 d
+/BO -2.5 d
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 1)59.5 792.4 ms
+F0 sf
+(%!PS-Adobe-3.0)59.5 772.4 ms
+0.753 0 0 r
+(%%Title: i3_guide.rmd)59.5 762.4 ms
+(%%For: hermes)59.5 752.4 ms
+(%%Creator: VIM - Vi IMproved 8.1 \(2018 May 18\))59.5 742.4 ms
+(%%CreationDate: Tue Nov 20 13:25:15 2018)59.5 732.4 ms
+(%%DocumentData: Clean8Bit)59.5 722.4 ms
+(%%Orientation: Portrait)59.5 712.4 ms
+(%%Pages: \(atend\))59.5 702.4 ms
+(%%PageOrder: Ascend)59.5 692.4 ms
+(%%BoundingBox: 59 49 564 800)59.5 682.4 ms
+(%%DocumentMedia: A4 595 842 0 \(\) \(\))59.5 672.4 ms
+(%%DocumentNeededResources: font Courier)59.5 662.4 ms
+(%%+ font Courier-Bold)59.5 652.4 ms
+(%%+ font Courier-Oblique)59.5 642.4 ms
+(%%+ font Courier-BoldOblique)59.5 632.4 ms
+(%%DocumentSuppliedResources: procset VIM-Prolog 1.4 1)59.5 622.4 ms
+(%%+ encoding VIM-latin1 1.0 0)59.5 612.4 ms
+(%%Requirements: duplex collate color)59.5 602.4 ms
+(%%EndComments)59.5 592.4 ms
+(%%BeginDefaults)59.5 582.4 ms
+(%%PageResources: font Courier)59.5 572.4 ms
+(%%+ font Courier-Bold)59.5 562.4 ms
+(%%+ font Courier-Oblique)59.5 552.4 ms
+(%%+ font Courier-BoldOblique)59.5 542.4 ms
+(%%PageMedia: A4)59.5 532.4 ms
+(%%EndDefaults)59.5 522.4 ms
+(%%BeginProlog)59.5 512.4 ms
+(%%BeginResource: procset VIM-Prolog)59.5 502.4 ms
+(%%BeginDocument: /usr/share/vim/vim81/print/prolog.ps)59.5 492.4 ms
+0 g
+(%!PS-Adobe-3.0 Resource-ProcSet)59.5 482.4 ms
+0.753 0 0 r
+(%%Title: VIM-Prolog)59.5 472.4 ms
+(%%Version: 1.4 1)59.5 462.4 ms
+(%%EndComments)59.5 452.4 ms
+0 g
+(% Editing of this file is NOT RECOMMENDED.  You run a very good risk of causing)59.5 442.4 ms
+(% all PostScript printing from VIM failing if you do.  PostScript is not called)59.5 432.4 ms
+(% a write-only language for nothing!)59.5 422.4 ms
+(/packedarray where not{userdict begin/setpacking/pop load def/currentpacking)59.5 412.4 ms
+(false def end}{pop}ifelse/CP currentpacking def true setpacking)59.5 402.4 ms
+(/bd{bind def}bind def/ld{load def}bd/ed{exch def}bd/d/def ld)59.5 392.4 ms
+(/db{dict begin}bd/cde{currentdict end}bd)59.5 382.4 ms
+(/T true d/F false d)59.5 372.4 ms
+(/SO null d/sv{/SO save d}bd/re{SO restore}bd)59.5 362.4 ms
+(/L2 systemdict/languagelevel 2 copy known{get exec}{pop pop 1}ifelse 2 ge d)59.5 352.4 ms
+(/m/moveto ld/s/show ld /ms{m s}bd /g/setgray ld/r/setrgbcolor ld/sp{showpage}bd)59.5 342.4 ms
+(/gs/gsave ld/gr/grestore ld/cp/currentpoint ld)59.5 332.4 ms
+(/ul{gs UW setlinewidth cp UO add 2 copy newpath m 3 1 roll add exch lineto)59.5 322.4 ms
+(stroke gr}bd)59.5 312.4 ms
+(/bg{gs r cp BO add 4 -2 roll rectfill gr}bd)59.5 302.4 ms
+(/sl{90 rotate 0 exch translate}bd)59.5 292.4 ms
+(L2{)59.5 282.4 ms
+(/sspd{mark exch{setpagedevice}stopped cleartomark}bd)59.5 272.4 ms
+(/nc{1 db/NumCopies ed cde sspd}bd)59.5 262.4 ms
+(/sps{3 db/Orientation ed[3 1 roll]/PageSize ed/ImagingBBox null d cde sspd}bd)59.5 252.4 ms
+(/dt{2 db/Tumble ed/Duplex ed cde sspd}bd)59.5 242.4 ms
+(/c{1 db/Collate ed cde sspd}bd)59.5 232.4 ms
+(}{)59.5 222.4 ms
+(/nc{/#copies ed}bd)59.5 212.4 ms
+(/sps{statusdict/setpage get exec}bd)59.5 202.4 ms
+(/dt{statusdict/settumble 2 copy known{get exec}{pop pop pop}ifelse)59.5 192.4 ms
+(statusdict/setduplexmode 2 copy known{get exec}{pop pop pop}ifelse}bd)59.5 182.4 ms
+(/c{pop}bd)59.5 172.4 ms
+(}ifelse)59.5 162.4 ms
+(/ffs{findfont exch scalefont d}bd/sf{setfont}bd)59.5 152.4 ms
+(/ref{1 db findfont dup maxlength dict/NFD ed{exch dup/FID ne{exch NFD 3 1 roll)59.5 142.4 ms
+(put}{pop pop}ifelse}forall/Encoding findresource dup length 256 eq{NFD/Encoding)59.5 132.4 ms
+(3 -1 roll put}{pop}ifelse NFD dup/FontType get 3 ne{/CharStrings}{/CharProcs})59.5 122.4 ms
+(ifelse 2 copy known{2 copy get dup maxlength dict copy[/questiondown/space]{2)59.5 112.4 ms
+(copy known{2 copy get 2 index/.notdef 3 -1 roll put pop exit}if pop}forall put)59.5 102.4 ms
+(}{pop pop}ifelse dup NFD/FontName 3 -1 roll put NFD definefont pop end}bd)59.5 92.4 ms
+(CP setpacking)59.5 82.4 ms
+(\(\\004\)cvn{}bd)59.5 72.4 ms
+(% vim:ff=unix:)59.5 62.4 ms
+0.753 0 0 r
+(%%EOF)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 2 2
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 2)59.5 792.4 ms
+F0 sf
+0.753 0 0 r
+(%%EndDocument)59.5 772.4 ms
+(%%EndResource)59.5 762.4 ms
+(%%BeginResource: encoding VIM-latin1)59.5 752.4 ms
+(%%BeginDocument: /usr/share/vim/vim81/print/latin1.ps)59.5 742.4 ms
+0 g
+(%!PS-Adobe-3.0 Resource-Encoding)59.5 732.4 ms
+0.753 0 0 r
+(%%Title: VIM-latin1)59.5 722.4 ms
+(%%Version: 1.0 0)59.5 712.4 ms
+(%%EndComments)59.5 702.4 ms
+0 g
+(/VIM-latin1[)59.5 692.4 ms
+(/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef)59.5 682.4 ms
+(/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef)59.5 672.4 ms
+(/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef)59.5 662.4 ms
+(/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef)59.5 652.4 ms
+(/space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quotesingle)59.5 642.4 ms
+(/parenleft /parenright /asterisk /plus /comma /minus /period /slash)59.5 632.4 ms
+(/zero /one /two /three /four /five /six /seven)59.5 622.4 ms
+(/eight /nine /colon /semicolon /less /equal /greater /question)59.5 612.4 ms
+(/at /A /B /C /D /E /F /G)59.5 602.4 ms
+(/H /I /J /K /L /M /N /O)59.5 592.4 ms
+(/P /Q /R /S /T /U /V /W)59.5 582.4 ms
+(/X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore)59.5 572.4 ms
+(/grave /a /b /c /d /e /f /g)59.5 562.4 ms
+(/h /i /j /k /l /m /n /o)59.5 552.4 ms
+(/p /q /r /s /t /u /v /w)59.5 542.4 ms
+(/x /y /z /braceleft /bar /braceright /asciitilde /.notdef)59.5 532.4 ms
+(/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef)59.5 522.4 ms
+(/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef)59.5 512.4 ms
+(/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef)59.5 502.4 ms
+(/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef)59.5 492.4 ms
+(/space /exclamdown /cent /sterling /currency /yen /brokenbar /section)59.5 482.4 ms
+(/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /ma)59.5 472.4 ms
+(cron)59.5 462.4 ms
+(/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered)59.5 452.4 ms
+(/cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequart)59.5 442.4 ms
+(ers /questiondown)59.5 432.4 ms
+(/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla)59.5 422.4 ms
+(/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis)59.5 412.4 ms
+(/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply)59.5 402.4 ms
+(/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls)59.5 392.4 ms
+(/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla)59.5 382.4 ms
+(/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis)59.5 372.4 ms
+(/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide)59.5 362.4 ms
+(/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis])59.5 352.4 ms
+(/Encoding defineresource pop)59.5 342.4 ms
+(% vim:ff=unix:)59.5 332.4 ms
+0.753 0 0 r
+(%%EOF)59.5 322.4 ms
+(%%EndDocument)59.5 312.4 ms
+(%%EndResource)59.5 302.4 ms
+(%%EndProlog)59.5 292.4 ms
+(%%BeginSetup)59.5 282.4 ms
+0 g
+(595 842 0 sps)59.5 272.4 ms
+(1 nc)59.5 262.4 ms
+(T F dt)59.5 252.4 ms
+(T c)59.5 242.4 ms
+0.753 0 0 r
+(%%IncludeResource: font Courier)59.5 232.4 ms
+0 g
+(/_F0 /VIM-latin1 /Courier ref)59.5 222.4 ms
+(/F0 10 /_F0 ffs)59.5 212.4 ms
+0.753 0 0 r
+(%%IncludeResource: font Courier-Bold)59.5 202.4 ms
+0 g
+(/_F1 /VIM-latin1 /Courier-Bold ref)59.5 192.4 ms
+(/F1 10 /_F1 ffs)59.5 182.4 ms
+0.753 0 0 r
+(%%IncludeResource: font Courier-Oblique)59.5 172.4 ms
+0 g
+(/_F2 /VIM-latin1 /Courier-Oblique ref)59.5 162.4 ms
+(/F2 10 /_F2 ffs)59.5 152.4 ms
+0.753 0 0 r
+(%%IncludeResource: font Courier-BoldOblique)59.5 142.4 ms
+0 g
+(/_F3 /VIM-latin1 /Courier-BoldOblique ref)59.5 132.4 ms
+(/F3 10 /_F3 ffs)59.5 122.4 ms
+(/UO -1 d)59.5 112.4 ms
+(/UW 0.5 d)59.5 102.4 ms
+(/BO -2.5 d)59.5 92.4 ms
+0.753 0 0 r
+(%%EndSetup)59.5 82.4 ms
+(%%Page: 1 1)59.5 72.4 ms
+(%%BeginPageSetup)59.5 62.4 ms
+0 g
+(sv)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 3 3
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 3)59.5 792.4 ms
+F0 sf
+(0 g)59.5 772.4 ms
+(F0 sf)59.5 762.4 ms
+0.753 0 0 r
+(%%EndPageSetup)59.5 752.4 ms
+0 g
+(F1 sf)59.5 742.4 ms
+(\(i3_guide.rmd                                                                  Page )59.5 732.4 ms
+(1\)59.5 792.4 ms)59.5 722.4 ms
+(F0 sf)59.5 712.4 ms
+(\(---\)59.5 772.4 ms)59.5 702.4 ms
+(\(title: A Friendly Guide to LARBS\)59.5 762.4 ms)59.5 692.4 ms
+(\(author: Luke Smith \\\(\)59.5 752.4 ms)59.5 682.4 ms
+(0.753 0 0.753 r)59.5 672.4 ms
+(276 ul)59.5 662.4 ms
+(\([)59.5 652.4 ms
+0.753 0 0.753 r
+294 ul
+(https://lukesmith.xyz]\\\(https://lukesmith.xyz\\\)\)s)s
+0 g
+(0 g)59.5 642.4 ms
+(\(\\\)\)s)59.5 632.4 ms
+(\(output: pdf_document\)59.5 742.4 ms)59.5 622.4 ms
+(\(linkcolor: blue\)59.5 732.4 ms)59.5 612.4 ms
+(\(---\)59.5 722.4 ms)59.5 602.4 ms
+(\(Use vim keys \\\(`\)59.5 702.4 ms)59.5 592.4 ms
+(0.753 0 0.753 r)59.5 582.4 ms
+(\(h\)s)59.5 572.4 ms
+(0 g)59.5 562.4 ms
+(\(`)59.5 552.4 ms
+0.753 0 0.753 r
+(/)s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 542.4 ms
+(\(j\)s)59.5 532.4 ms
+(0 g)59.5 522.4 ms
+(\(`)59.5 512.4 ms
+0.753 0 0.753 r
+(/)s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 502.4 ms
+(\(k\)s)59.5 492.4 ms
+(0 g)59.5 482.4 ms
+(\(`)59.5 472.4 ms
+0.753 0 0.753 r
+(/)s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 462.4 ms
+(\(l\)s)59.5 452.4 ms
+(0 g)59.5 442.4 ms
+(\(`)59.5 432.4 ms
+0.753 0 0.753 r
+(\\\) to navigate this document. Pressing )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 422.4 ms
+(\(s\)s)59.5 412.4 ms
+(0 g)59.5 402.4 ms
+(\(` will fit\)s)59.5 392.4 ms
+(\(it to window width \\\(`\)59.5 692.4 ms)59.5 382.4 ms
+(0.753 0 0.753 r)59.5 372.4 ms
+(\(a\)s)59.5 362.4 ms
+(0 g)59.5 352.4 ms
+(\(`)59.5 342.4 ms
+0.753 0 0.753 r
+( to revert\\\). )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 332.4 ms
+(\(K\)s)59.5 322.4 ms
+(0 g)59.5 312.4 ms
+(\(`)59.5 302.4 ms
+0.753 0 0.753 r
+( and )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 292.4 ms
+(\(J\)s)59.5 282.4 ms
+(0 g)59.5 272.4 ms
+(\(`)59.5 262.4 ms
+0.753 0 0.753 r
+( zoom in and out. )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 252.4 ms
+(\(Mod+f\)s)59.5 242.4 ms
+(0 g)59.5 232.4 ms
+(\(` to\)s)59.5 222.4 ms
+(\(toggle fullscreen. `\)59.5 682.4 ms)59.5 212.4 ms
+(0.753 0 0.753 r)59.5 202.4 ms
+(\(q\)s)59.5 192.4 ms
+(0 g)59.5 182.4 ms
+(\(` to quit.  \\\(These are general zathura shortcuts.\\\)\)s)59.5 172.4 ms
+(0.502 0.502 0 r)59.5 162.4 ms
+(\(+ \)59.5 662.4 ms)59.5 152.4 ms
+(0 g)59.5 142.4 ms
+(\(`\)s)59.5 132.4 ms
+(0.753 0 0.753 r)59.5 122.4 ms
+(\(Mod+F1\)s)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(` will show this document at any time.\)s)59.5 92.4 ms
+(0.502 0.502 0 r)59.5 82.4 ms
+(\(+ \)59.5 652.4 ms)59.5 72.4 ms
+(0 g)59.5 62.4 ms
+(\(By `\)s)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 4 4
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 4)59.5 792.4 ms
+F0 sf
+(0.753 0 0.753 r)59.5 772.4 ms
+(\(Mod\)s)59.5 762.4 ms
+(0 g)59.5 752.4 ms
+(\(` I mean the Super Key, usually known as "the Windows Key."\)s)59.5 742.4 ms
+(\(Questions or suggestions? Email me at\)59.5 632.4 ms)59.5 732.4 ms
+(0.753 0 0.753 r)59.5 722.4 ms
+(59.5 622.4 m)59.5 712.4 ms
+(282 ul)59.5 702.4 ms
+(\([luke@lukesmith.xyz]\\\()59.5 692.4 ms
+0.753 0 0.753 r
+174 ul
+(mailto:luke@lukesmith.xyz\\\)\)s)s
+0 g
+(0 g)59.5 682.4 ms
+(\(.\)s)59.5 672.4 ms
+(\(#\)59.5 602.4 ms)59.5 662.4 ms
+(F1 sf)59.5 652.4 ms
+(0.753 0 0.753 r)59.5 642.4 ms
+(\( Welcome!\)s)59.5 632.4 ms
+(F0 sf)59.5 622.4 ms
+(0 g)59.5 612.4 ms
+(\(##\)59.5 582.4 ms)59.5 602.4 ms
+(F1 sf)59.5 592.4 ms
+(0.753 0 0.753 r)59.5 582.4 ms
+(\( Basic goals and principles of this system:\)s)59.5 572.4 ms
+(F0 sf)59.5 562.4 ms
+(0.502 0.502 0 r)59.5 552.4 ms
+(\(+ \)59.5 562.4 ms)59.5 542.4 ms
+(0 g)59.5 532.4 ms
+(\(Naturalness -- Remove the border between mind and matter: everything\)s)59.5 522.4 ms
+(\(  important should be as few keypresses as possible away from you, and you\)59.5 552)59.5 512.4 ms
+(.4 ms)59.5 502.4 ms
+(\(  shouldn't have to think about what you're doing. Immersion.\)59.5 542.4 ms)59.5 492.4 ms
+(0.502 0.502 0 r)59.5 482.4 ms
+(\(+ \)59.5 532.4 ms)59.5 472.4 ms
+(0 g)59.5 462.4 ms
+(\(Economy -- Programs should be simple and light on system resources and highly\)s)59.5 452.4 ms
+(\(  extensible. Because of this, many are terminal or small ncurses programs that\)59.)59.5 442.4 ms
+(5 522.4 ms)59.5 432.4 ms
+(\(  have all the magic inside of them.\)59.5 512.4 ms)59.5 422.4 ms
+(0.502 0.502 0 r)59.5 412.4 ms
+(\(+ \)59.5 502.4 ms)59.5 402.4 ms
+(0 g)59.5 392.4 ms
+(\(Keyboard/vim-centrality -- All terminal programs \\\(and other programs\\\) use vim\)s)59.5 382.4 ms
+(\(  keys when possible. Your hands never need leave the home row or thereabout.\)59.5 )59.5 372.4 ms
+(492.4 ms)59.5 362.4 ms
+(0.502 0.502 0 r)59.5 352.4 ms
+(\(+ \)59.5 482.4 ms)59.5 342.4 ms
+(0 g)59.5 332.4 ms
+(\(Decentralization -- This system is a web of small, modifiable and\)s)59.5 322.4 ms
+(\(  replaceable programs that users can easily customize.\)59.5 472.4 ms)59.5 312.4 ms
+(\(##\)59.5 452.4 ms)59.5 302.4 ms
+(F1 sf)59.5 292.4 ms
+(0.753 0 0.753 r)59.5 282.4 ms
+(\( General keyboard changes\)s)59.5 272.4 ms
+(F0 sf)59.5 262.4 ms
+(0.502 0.502 0 r)59.5 252.4 ms
+(\(+ \)59.5 432.4 ms)59.5 242.4 ms
+(0 g)59.5 232.4 ms
+(\(Capslock is a useless key in high quality space. It's now remapped. If you\)s)59.5 222.4 ms
+(\(  press it alone, it will function as escape, making vimcraft much more\)59.5 422.4 )59.5 212.4 ms
+(ms)59.5 202.4 ms
+(\(  natural, but you can also hold it down and it will act as another\)59.5 412.4 ms)59.5 192.4 ms
+(\(  Windows/super/mod key.\)59.5 402.4 ms)59.5 182.4 ms
+(0.502 0.502 0 r)59.5 172.4 ms
+(\(+ \)59.5 392.4 ms)59.5 162.4 ms
+(0 g)59.5 152.4 ms
+(\(The menu button \\\(usually between the right Alt and Ctrl\\\) is an alternative\)s)59.5 142.4 ms
+(\(  Super/Mod button. This is to make one-handing on my laptops easier.\)59.5 382.4 ms)59.5 132.4 ms
+(0.502 0.502 0 r)59.5 122.4 ms
+(\(+ \)59.5 372.4 ms)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(The system also uses the US International keyboard by default. This allows\)s)59.5 92.4 ms
+(\(  you to type a lot of characters in many different European languages.\)59.5 362.4 )59.5 82.4 ms
+(ms)59.5 72.4 ms
+(\(If you'd like to change any of these keyboard changes, you need only open and\)59.5 )59.5 62.4 ms
+(342.4 ms)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 5 5
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 5)59.5 792.4 ms
+F0 sf
+(\(change `\)59.5 332.4 ms)59.5 772.4 ms
+(0.753 0 0.753 r)59.5 762.4 ms
+(\(~/.scripts/tools/remaps\)s)59.5 752.4 ms
+(0 g)59.5 742.4 ms
+(\(`. Actually, this should go without saying, but\)s)59.5 732.4 ms
+(\(*\)59.5 322.4 ms)59.5 722.4 ms
+(F1 sf)59.5 712.4 ms
+(\(everything\)s)59.5 702.4 ms
+(F0 sf)59.5 692.4 ms
+(\(* here can easily be changed.\)s)59.5 682.4 ms
+(\(Additionally, while this isn't a part of i3, the default editing mode in the\)59.5 3)59.5 672.4 ms
+(02.4 ms)59.5 662.4 ms
+(\(shell is using vi bindings. If you want to learn more of this, run\)59.5 292.4 ms)59.5 652.4 ms
+(\(`\)59.5 282.4 ms)59.5 642.4 ms
+(0.753 0 0.753 r)59.5 632.4 ms
+(\(Mod+Super+E\)s)59.5 622.4 ms
+(0 g)59.5 612.4 ms
+(\(` and type and select the option for "vi mode in shell".  This\)s)59.5 602.4 ms
+(\(setting can be changed if you don't like it by deleting or commenting out the\)59.5 )59.5 592.4 ms
+(272.4 ms)59.5 582.4 ms
+(\(contents of `\)59.5 262.4 ms)59.5 572.4 ms
+(0.753 0 0.753 r)59.5 562.4 ms
+(\(~/.inputrc\)s)59.5 552.4 ms
+(0 g)59.5 542.4 ms
+(\(`.\)s)59.5 532.4 ms
+(\(##\)59.5 242.4 ms)59.5 522.4 ms
+(F1 sf)59.5 512.4 ms
+(0.753 0 0.753 r)59.5 502.4 ms
+(\( The Status Bar\)s)59.5 492.4 ms
+(F0 sf)59.5 482.4 ms
+(0 g)59.5 472.4 ms
+(\(If you're new to i3, notice the status bar on the top of the screen. To the\)59.5 22)59.5 462.4 ms
+(2.4 ms)59.5 452.4 ms
+(\(left side, you'll see the numbers of your current workspace\\\(s\\\). On the right\)59.5)59.5 442.4 ms
+( 212.4 ms)59.5 432.4 ms
+(\(side, you'll see various system status notifiers, the date, volume, even music\)59.5)59.5 422.4 ms
+( 202.4 ms)59.5 412.4 ms
+(\(and local weather if possible  etc. I'm sure you can figure it out. Several\)59.5 19)59.5 402.4 ms
+(2.4 ms)59.5 392.4 ms
+(\(modules will be click-sensitive, although if you're using my system as\)59.5 182.4 m)59.5 382.4 ms
+(s)59.5 372.4 ms
+(\(indented, you probably won't be doing much clicking.\)59.5 172.4 ms)59.5 362.4 ms
+(\(The i3blocks config is `\)59.5 152.4 ms)59.5 352.4 ms
+(0.753 0 0.753 r)59.5 342.4 ms
+(\(~/.config/i3blocks/config\)s)59.5 332.4 ms
+(0 g)59.5 322.4 ms
+(\(`, which you can access by the\)s)59.5 312.4 ms
+(\(terminal shortcut `\)59.5 142.4 ms)59.5 302.4 ms
+(0.753 0 0.753 r)59.5 292.4 ms
+(\(cfib\)s)59.5 282.4 ms
+(0 g)59.5 272.4 ms
+(\(`. Notice that the config file refers to several module\)s)59.5 262.4 ms
+(\(scripts in the `\)59.5 132.4 ms)59.5 252.4 ms
+(0.753 0 0.753 r)59.5 242.4 ms
+(\(~/.scripts/\)s)59.5 232.4 ms
+(0 g)59.5 222.4 ms
+(\(` directory. You can read a summary of all of these\)s)59.5 212.4 ms
+(\(scripts in the file `\)59.5 122.4 ms)59.5 202.4 ms
+(0.753 0 0.753 r)59.5 192.4 ms
+(\(~/.scripts/SCRIPTS.md\)s)59.5 182.4 ms
+(0 g)59.5 172.4 ms
+(\(`.\)s)59.5 162.4 ms
+(\(##\)59.5 102.4 ms)59.5 152.4 ms
+(F1 sf)59.5 142.4 ms
+(0.753 0 0.753 r)59.5 132.4 ms
+(\( Deeper Tutorials\)s)59.5 122.4 ms
+(F0 sf)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(In addition to this guide and reading the dotfiles of programs manually, you\)59.5 8)59.5 92.4 ms
+(2.4 ms)59.5 82.4 ms
+(\(can also get program-specific information by running the `\)59.5 72.4 ms)59.5 72.4 ms
+(0.753 0 0.753 r)59.5 62.4 ms
+(\(getkeys\)s)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 6 6
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 6)59.5 792.4 ms
+F0 sf
+(0 g)59.5 772.4 ms
+(\(` command.\)s)59.5 762.4 ms
+(\(This will give you the bindings of what program you want. You can also press\)59.5 6)59.5 752.4 ms
+(2.4 ms)59.5 742.4 ms
+(\(`\)59.5 52.4 ms)59.5 732.4 ms
+(0.753 0 0.753 r)59.5 722.4 ms
+(\(Mod+E\)s)59.5 712.4 ms
+(0 g)59.5 702.4 ms
+(\(`)59.5 692.4 ms
+0.753 0 0.753 r
+( \\\(that's a capital )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 682.4 ms
+(\(E\)s)59.5 672.4 ms
+(0 g)59.5 662.4 ms
+(\(`\\\) to get be able to watch tutorial videos on\)s)59.5 652.4 ms
+(re sp)59.5 642.4 ms
+0.753 0 0 r
+(%%PageTrailer)59.5 632.4 ms
+(%%Page: 2 2)59.5 622.4 ms
+(%%BeginPageSetup)59.5 612.4 ms
+0 g
+(sv)59.5 602.4 ms
+(0 g)59.5 592.4 ms
+(F0 sf)59.5 582.4 ms
+0.753 0 0 r
+(%%EndPageSetup)59.5 572.4 ms
+0 g
+(F1 sf)59.5 562.4 ms
+(\(i3_guide.rmd                                                                  Page )59.5 552.4 ms
+(2\)59.5 792.4 ms)59.5 542.4 ms
+(F0 sf)59.5 532.4 ms
+(\(specific programs or concepts directly from YouTube.\)59.5 772.4 ms)59.5 522.4 ms
+(\(#\)59.5 752.4 ms)59.5 512.4 ms
+(F1 sf)59.5 502.4 ms
+(0.753 0 0.753 r)59.5 492.4 ms
+(\( Key Bindings\)s)59.5 482.4 ms
+(F0 sf)59.5 472.4 ms
+(0 g)59.5 462.4 ms
+(\(All of the bindings below are in the file `\)59.5 732.4 ms)59.5 452.4 ms
+(0.753 0 0.753 r)59.5 442.4 ms
+(\(~/.config/i3/config\)s)59.5 432.4 ms
+(0 g)59.5 422.4 ms
+(\(` \\\(easily\)s)59.5 412.4 ms
+(\(accessible by typing `\)59.5 722.4 ms)59.5 402.4 ms
+(0.753 0 0.753 r)59.5 392.4 ms
+(\(cfi\)s)59.5 382.4 ms
+(0 g)59.5 372.4 ms
+(\(` in the terminal\\\) and can all be easily changed.\)s)59.5 362.4 ms
+(\(##\)59.5 702.4 ms)59.5 352.4 ms
+(F1 sf)59.5 342.4 ms
+(0.753 0 0.753 r)59.5 332.4 ms
+(\( Window basics\)s)59.5 322.4 ms
+(F0 sf)59.5 312.4 ms
+(0 g)59.5 302.4 ms
+(\(Notice the case sensitivity of the shortcuts.^[To type capital letters, hold\)59.5 6)59.5 292.4 ms
+(82.4 ms)59.5 282.4 ms
+(\(down the `\)59.5 672.4 ms)59.5 272.4 ms
+(0.753 0 0.753 r)59.5 262.4 ms
+(\(Shift\)s)59.5 252.4 ms
+(0 g)59.5 242.4 ms
+(\(` key---that might sound like an obvious and condescending thing\)s)59.5 232.4 ms
+(\(to tell you, but there have literally been multiple people \\\(Boomers\\\) who have\)59.)59.5 222.4 ms
+(5 662.4 ms)59.5 212.4 ms
+(\(emailed me asking how to type a capital letter since caps lock isn't enabled.]\)59.5)59.5 202.4 ms
+( 652.4 ms)59.5 192.4 ms
+(\(Be sure you play around with these. Be flexible with the basic commands and the\)59.)59.5 182.4 ms
+(5 632.4 ms)59.5 172.4 ms
+(\(system will grow on you quick.\)59.5 622.4 ms)59.5 162.4 ms
+(0.502 0.502 0 r)59.5 152.4 ms
+(\(+ \)59.5 602.4 ms)59.5 142.4 ms
+(0 g)59.5 132.4 ms
+(\(`\)s)59.5 122.4 ms
+(0.753 0 0.753 r)59.5 112.4 ms
+(\(Mod+Enter\)s)59.5 102.4 ms
+(0 g)59.5 92.4 ms
+(\(` -- Spawn terminal\)s)59.5 82.4 ms
+(0.502 0.502 0 r)59.5 72.4 ms
+(\(+ \)59.5 592.4 ms)59.5 62.4 ms
+(0 g)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 7 7
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 7)59.5 792.4 ms
+F0 sf
+(\(`\)s)59.5 772.4 ms
+(0.753 0 0.753 r)59.5 762.4 ms
+(\(Mod+q/Q\)s)59.5 752.4 ms
+(0 g)59.5 742.4 ms
+(\(` -- Close window\)s)59.5 732.4 ms
+(0.502 0.502 0 r)59.5 722.4 ms
+(\(+ \)59.5 582.4 ms)59.5 712.4 ms
+(0 g)59.5 702.4 ms
+(\(`\)s)59.5 692.4 ms
+(0.753 0 0.753 r)59.5 682.4 ms
+(\(Mod+d\)s)59.5 672.4 ms
+(0 g)59.5 662.4 ms
+(\(` -- rofi \\\(For running commands or programs without shortcuts\\\)\)s)59.5 652.4 ms
+(0.502 0.502 0 r)59.5 642.4 ms
+(\(+ \)59.5 572.4 ms)59.5 632.4 ms
+(0 g)59.5 622.4 ms
+(\(`\)s)59.5 612.4 ms
+(0.753 0 0.753 r)59.5 602.4 ms
+(\(Mod+t\)s)59.5 592.4 ms
+(0 g)59.5 582.4 ms
+(\(` -- Toggle between spawning vertically and horizontally\)s)59.5 572.4 ms
+(0.502 0.502 0 r)59.5 562.4 ms
+(\(+ \)59.5 562.4 ms)59.5 552.4 ms
+(0 g)59.5 542.4 ms
+(\(`\)s)59.5 532.4 ms
+(0.753 0 0.753 r)59.5 522.4 ms
+(\(Mod+f\)s)59.5 512.4 ms
+(0 g)59.5 502.4 ms
+(\(` -- Fullscreen\)s)59.5 492.4 ms
+(0.502 0.502 0 r)59.5 482.4 ms
+(\(+ \)59.5 552.4 ms)59.5 472.4 ms
+(0 g)59.5 462.4 ms
+(\(`\)s)59.5 452.4 ms
+(0.753 0 0.753 r)59.5 442.4 ms
+(\(Mod+h/j/k/l\)s)59.5 432.4 ms
+(0 g)59.5 422.4 ms
+(\(` -- Move to different windows\)s)59.5 412.4 ms
+(0.502 0.502 0 r)59.5 402.4 ms
+(\(+ \)59.5 542.4 ms)59.5 392.4 ms
+(0 g)59.5 382.4 ms
+(\(`\)s)59.5 372.4 ms
+(0.753 0 0.753 r)59.5 362.4 ms
+(\(Mod+H/J/K/L\)s)59.5 352.4 ms
+(0 g)59.5 342.4 ms
+(\(` -- Move a window around\)s)59.5 332.4 ms
+(0.502 0.502 0 r)59.5 322.4 ms
+(\(+ \)59.5 532.4 ms)59.5 312.4 ms
+(0 g)59.5 302.4 ms
+(\(`\)s)59.5 292.4 ms
+(0.753 0 0.753 r)59.5 282.4 ms
+(\(Mod+Y/U/I/O\)s)59.5 272.4 ms
+(0 g)59.5 262.4 ms
+(\(` -- Resize windows\)s)59.5 252.4 ms
+(0.502 0.502 0 r)59.5 242.4 ms
+(\(+ \)59.5 522.4 ms)59.5 232.4 ms
+(0 g)59.5 222.4 ms
+(\(`\)s)59.5 212.4 ms
+(0.753 0 0.753 r)59.5 202.4 ms
+(\(Mod+/\)s)59.5 192.4 ms
+(0 g)59.5 182.4 ms
+(\(` -- Spawn vertical terminal\)s)59.5 172.4 ms
+(0.502 0.502 0 r)59.5 162.4 ms
+(\(+ \)59.5 512.4 ms)59.5 152.4 ms
+(0 g)59.5 142.4 ms
+(\(`\)s)59.5 132.4 ms
+(0.753 0 0.753 r)59.5 122.4 ms
+(\(Mod+'\)s)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(` -- Spawn horizontal terminal\)s)59.5 92.4 ms
+(0.502 0.502 0 r)59.5 82.4 ms
+(\(+ \)59.5 502.4 ms)59.5 72.4 ms
+(0 g)59.5 62.4 ms
+(\(`\)s)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 8 8
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 8)59.5 792.4 ms
+F0 sf
+(0.753 0 0.753 r)59.5 772.4 ms
+(\(Mod+s/S\)s)59.5 762.4 ms
+(0 g)59.5 752.4 ms
+(\(` -- Increase/decrease inner gaps\)s)59.5 742.4 ms
+(0.502 0.502 0 r)59.5 732.4 ms
+(\(+ \)59.5 492.4 ms)59.5 722.4 ms
+(0 g)59.5 712.4 ms
+(\(`\)s)59.5 702.4 ms
+(0.753 0 0.753 r)59.5 692.4 ms
+(\(Mod+z/Z\)s)59.5 682.4 ms
+(0 g)59.5 672.4 ms
+(\(` -- Increase/decrease outer gaps\)s)59.5 662.4 ms
+(0.502 0.502 0 r)59.5 652.4 ms
+(\(+ \)59.5 482.4 ms)59.5 642.4 ms
+(0 g)59.5 632.4 ms
+(\(`\)s)59.5 622.4 ms
+(0.753 0 0.753 r)59.5 612.4 ms
+(\(Mod+D\)s)59.5 602.4 ms
+(0 g)59.5 592.4 ms
+(\(` -- Reduce gaps to 0 pixels\)s)59.5 582.4 ms
+(0.502 0.502 0 r)59.5 572.4 ms
+(\(+ \)59.5 472.4 ms)59.5 562.4 ms
+(0 g)59.5 552.4 ms
+(\(`\)s)59.5 542.4 ms
+(0.753 0 0.753 r)59.5 532.4 ms
+(\(Mod+T\)s)59.5 522.4 ms
+(0 g)59.5 512.4 ms
+(\(` -- Restore gaps to default \\\(15 pixels\\\)\)s)59.5 502.4 ms
+(0.502 0.502 0 r)59.5 492.4 ms
+(\(+ \)59.5 462.4 ms)59.5 482.4 ms
+(0 g)59.5 472.4 ms
+(\(`\)s)59.5 462.4 ms
+(0.753 0 0.753 r)59.5 452.4 ms
+(\(Mod+Shift+Space\)s)59.5 442.4 ms
+(0 g)59.5 432.4 ms
+(\(` -- Make a window float \\\(it will still be resizeable\\\)\)s)59.5 422.4 ms
+(0.502 0.502 0 r)59.5 412.4 ms
+(\(+ \)59.5 452.4 ms)59.5 402.4 ms
+(0 g)59.5 392.4 ms
+(\(`\)s)59.5 382.4 ms
+(0.753 0 0.753 r)59.5 372.4 ms
+(\(Mod+Space\)s)59.5 362.4 ms
+(0 g)59.5 352.4 ms
+(\(` -- Switch focus from a floating window to a non-floating one \\\(or\)s)59.5 342.4 ms
+(\(  vice versa\\\)\)59.5 442.4 ms)59.5 332.4 ms
+(0.502 0.502 0 r)59.5 322.4 ms
+(\(+ \)59.5 432.4 ms)59.5 312.4 ms
+(0 g)59.5 302.4 ms
+(\(`\)s)59.5 292.4 ms
+(0.753 0 0.753 r)59.5 282.4 ms
+(\(Mod+o\)s)59.5 272.4 ms
+(0 g)59.5 262.4 ms
+(\(` -- Make floating window sticky \\\(will stay on active workspace\\\)\)s)59.5 252.4 ms
+(0.502 0.502 0 r)59.5 242.4 ms
+(\(+ \)59.5 422.4 ms)59.5 232.4 ms
+(0 g)59.5 222.4 ms
+(\(`\)s)59.5 212.4 ms
+(0.753 0 0.753 r)59.5 202.4 ms
+(\(Mod+b\)s)59.5 192.4 ms
+(0 g)59.5 182.4 ms
+(\(` -- Toggle status bar\)s)59.5 172.4 ms
+(0.502 0.502 0 r)59.5 162.4 ms
+(\(+ \)59.5 412.4 ms)59.5 152.4 ms
+(0 g)59.5 142.4 ms
+(\(`\)s)59.5 132.4 ms
+(0.753 0 0.753 r)59.5 122.4 ms
+(\(Mod+B\)s)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(` -- Make window float in bottom left corner \\\(good for video watched\)s)59.5 92.4 ms
+(\(  intermittently\\\)\)59.5 402.4 ms)59.5 82.4 ms
+(\(##\)59.5 382.4 ms)59.5 72.4 ms
+(F1 sf)59.5 62.4 ms
+(0.753 0 0.753 r)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 9 9
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                  Page 9)59.5 792.4 ms
+F0 sf
+(\( Basic Programs\)s)59.5 772.4 ms
+(F0 sf)59.5 762.4 ms
+(0 g)59.5 752.4 ms
+(\(*\)59.5 362.4 ms)59.5 742.4 ms
+(F1 sf)59.5 732.4 ms
+(\(Note:\)s)59.5 722.4 ms
+(F0 sf)59.5 712.4 ms
+(\(* LARBS will install nearly all of these programs by default, but some\)s)59.5 702.4 ms
+(\(only come if you chose an extra option. Naturally, you can use `\)59.5 352.4 ms)59.5 692.4 ms
+(0.753 0 0.753 r)59.5 682.4 ms
+(\(yay\)s)59.5 672.4 ms
+(0 g)59.5 662.4 ms
+(\(` to look\)s)59.5 652.4 ms
+(\(for and install any you want to add.\)59.5 342.4 ms)59.5 642.4 ms
+(0.502 0.502 0 r)59.5 632.4 ms
+(\(+ \)59.5 322.4 ms)59.5 622.4 ms
+(0 g)59.5 612.4 ms
+(\(`\)s)59.5 602.4 ms
+(0.753 0 0.753 r)59.5 592.4 ms
+(\(Mod+r\)s)59.5 582.4 ms
+(0 g)59.5 572.4 ms
+(\(` -- ranger \\\(file browser/manager\\\)\)s)59.5 562.4 ms
+(0.502 0.502 0 r)59.5 552.4 ms
+(\(+ \)59.5 312.4 ms)59.5 542.4 ms
+(0 g)59.5 532.4 ms
+(\(`\)s)59.5 522.4 ms
+(0.753 0 0.753 r)59.5 512.4 ms
+(\(Mod+e\)s)59.5 502.4 ms
+(0 g)59.5 492.4 ms
+(\(` -- mutt \\\(email\\\)\)s)59.5 482.4 ms
+(0.502 0.502 0 r)59.5 472.4 ms
+(\(+ \)59.5 302.4 ms)59.5 462.4 ms
+(0 g)59.5 452.4 ms
+(\(`\)s)59.5 442.4 ms
+(0.753 0 0.753 r)59.5 432.4 ms
+(\(Mod+m\)s)59.5 422.4 ms
+(0 g)59.5 412.4 ms
+(\(` -- ncmpcpp \\\(music player\\\)\)s)59.5 402.4 ms
+(0.502 0.502 0 r)59.5 392.4 ms
+(\(+ \)59.5 292.4 ms)59.5 382.4 ms
+(0 g)59.5 372.4 ms
+(\(`\)s)59.5 362.4 ms
+(0.753 0 0.753 r)59.5 352.4 ms
+(\(Mod+w\)s)59.5 342.4 ms
+(0 g)59.5 332.4 ms
+(\(` -- nmtui \\\(for connecting to wireless internet\\\)\)s)59.5 322.4 ms
+(0.502 0.502 0 r)59.5 312.4 ms
+(\(+ \)59.5 282.4 ms)59.5 302.4 ms
+(0 g)59.5 292.4 ms
+(\(`\)s)59.5 282.4 ms
+(0.753 0 0.753 r)59.5 272.4 ms
+(\(Mod+a\)s)59.5 262.4 ms
+(0 g)59.5 252.4 ms
+(\(`)59.5 242.4 ms
+0.753 0 0.753 r
+( -- R/Python calculator \\\(hide with )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 232.4 ms
+(\(mod+a\)s)59.5 222.4 ms
+(0 g)59.5 212.4 ms
+(\(`\\\)\)s)59.5 202.4 ms
+(0.502 0.502 0 r)59.5 192.4 ms
+(\(+ \)59.5 272.4 ms)59.5 182.4 ms
+(0 g)59.5 172.4 ms
+(\(`\)s)59.5 162.4 ms
+(0.753 0 0.753 r)59.5 152.4 ms
+(\(Mod+i\)s)59.5 142.4 ms
+(0 g)59.5 132.4 ms
+(\(` -- htop \\\(system info\\\)\)s)59.5 122.4 ms
+(0.502 0.502 0 r)59.5 112.4 ms
+(\(+ \)59.5 262.4 ms)59.5 102.4 ms
+(0 g)59.5 92.4 ms
+(\(`\)s)59.5 82.4 ms
+(0.753 0 0.753 r)59.5 72.4 ms
+(\(Mod+n\)s)59.5 62.4 ms
+(0 g)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 10 10
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 10)59.5 792.4 ms
+F0 sf
+(\(` -- newsboat \\\(RSS feed reader\\\)\)s)59.5 772.4 ms
+(0.502 0.502 0 r)59.5 762.4 ms
+(\(+ \)59.5 252.4 ms)59.5 752.4 ms
+(0 g)59.5 742.4 ms
+(\(`\)s)59.5 732.4 ms
+(0.753 0 0.753 r)59.5 722.4 ms
+(\(Mod+y\)s)59.5 712.4 ms
+(0 g)59.5 702.4 ms
+(\(` -- calcurse \\\(calendar and schedule\\\)\)s)59.5 692.4 ms
+(0.502 0.502 0 r)59.5 682.4 ms
+(\(+ \)59.5 242.4 ms)59.5 672.4 ms
+(0 g)59.5 662.4 ms
+(\(`\)s)59.5 652.4 ms
+(0.753 0 0.753 r)59.5 642.4 ms
+(\(Mod+u\)s)59.5 632.4 ms
+(0 g)59.5 622.4 ms
+(\(`)59.5 612.4 ms
+0.753 0 0.753 r
+( -- "Dropdown" terminal \\\(hide with )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 602.4 ms
+(\(mod+u\)s)59.5 592.4 ms
+(0 g)59.5 582.4 ms
+(\(`\\\)\)s)59.5 572.4 ms
+(0.502 0.502 0 r)59.5 562.4 ms
+(\(+ \)59.5 232.4 ms)59.5 552.4 ms
+(0 g)59.5 542.4 ms
+(\(`\)s)59.5 532.4 ms
+(0.753 0 0.753 r)59.5 522.4 ms
+(\(Mod+A\)s)59.5 512.4 ms
+(0 g)59.5 502.4 ms
+(\(` -- pulsemixer \\\(audio system control\\\)\)s)59.5 492.4 ms
+(0.502 0.502 0 r)59.5 482.4 ms
+(\(+ \)59.5 222.4 ms)59.5 472.4 ms
+(0 g)59.5 462.4 ms
+(\(`\)s)59.5 452.4 ms
+(0.753 0 0.753 r)59.5 442.4 ms
+(\(Mod+W\)s)59.5 432.4 ms
+(0 g)59.5 422.4 ms
+(\(` -- Web Browser\)s)59.5 412.4 ms
+(0.502 0.502 0 r)59.5 402.4 ms
+(\(+ \)59.5 212.4 ms)59.5 392.4 ms
+(0 g)59.5 382.4 ms
+(\(`\)s)59.5 372.4 ms
+(0.753 0 0.753 r)59.5 362.4 ms
+(\(Mod+G\)s)59.5 352.4 ms
+(0 g)59.5 342.4 ms
+(\(` -- GIMP \\\(for general image manipulation\\\)\)s)59.5 332.4 ms
+(\(##\)59.5 192.4 ms)59.5 322.4 ms
+(F1 sf)59.5 312.4 ms
+(0.753 0 0.753 r)59.5 302.4 ms
+(\( System\)s)59.5 292.4 ms
+(F0 sf)59.5 282.4 ms
+(0.502 0.502 0 r)59.5 272.4 ms
+(\(+ \)59.5 172.4 ms)59.5 262.4 ms
+(0 g)59.5 252.4 ms
+(\(`\)s)59.5 242.4 ms
+(0.753 0 0.753 r)59.5 232.4 ms
+(\(Mod+R\)s)59.5 222.4 ms
+(0 g)59.5 212.4 ms
+(\(` -- ranger as root user\)s)59.5 202.4 ms
+(0.502 0.502 0 r)59.5 192.4 ms
+(\(+ \)59.5 162.4 ms)59.5 182.4 ms
+(0 g)59.5 172.4 ms
+(\(`\)s)59.5 162.4 ms
+(0.753 0 0.753 r)59.5 152.4 ms
+(\(Mod+x\)s)59.5 142.4 ms
+(0 g)59.5 132.4 ms
+(\(` -- i3lock \\\(Enter password to return\\\)\)s)59.5 122.4 ms
+(0.502 0.502 0 r)59.5 112.4 ms
+(\(+ \)59.5 152.4 ms)59.5 102.4 ms
+(0 g)59.5 92.4 ms
+(\(`\)s)59.5 82.4 ms
+(0.753 0 0.753 r)59.5 72.4 ms
+(\(Mod+X\)s)59.5 62.4 ms
+(0 g)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 11 11
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 11)59.5 792.4 ms
+F0 sf
+(\(` -- shutdown \\\(will ask to confirm\\\)\)s)59.5 772.4 ms
+(0.502 0.502 0 r)59.5 762.4 ms
+(\(+ \)59.5 142.4 ms)59.5 752.4 ms
+(0 g)59.5 742.4 ms
+(\(`\)s)59.5 732.4 ms
+(0.753 0 0.753 r)59.5 722.4 ms
+(\(Mod+Shift+Backspace\)s)59.5 712.4 ms
+(0 g)59.5 702.4 ms
+(\(` -- reboot \\\(will ask to confirm\\\)\)s)59.5 692.4 ms
+(0.502 0.502 0 r)59.5 682.4 ms
+(\(+ \)59.5 132.4 ms)59.5 672.4 ms
+(0 g)59.5 662.4 ms
+(\(`\)s)59.5 652.4 ms
+(0.753 0 0.753 r)59.5 642.4 ms
+(\(Mod+Shift+Escape\)s)59.5 632.4 ms
+(0 g)59.5 622.4 ms
+(\(` -- exit i3 \\\(will ask to confirm\\\)\)s)59.5 612.4 ms
+(0.502 0.502 0 r)59.5 602.4 ms
+(\(+ \)59.5 122.4 ms)59.5 592.4 ms
+(0 g)59.5 582.4 ms
+(\(`\)s)59.5 572.4 ms
+(0.753 0 0.753 r)59.5 562.4 ms
+(\(Mod+F1\)s)59.5 552.4 ms
+(0 g)59.5 542.4 ms
+(\(` -- Shows this document\)s)59.5 532.4 ms
+(0.502 0.502 0 r)59.5 522.4 ms
+(\(+ \)59.5 112.4 ms)59.5 512.4 ms
+(0 g)59.5 502.4 ms
+(\(`\)s)59.5 492.4 ms
+(0.753 0 0.753 r)59.5 482.4 ms
+(\(Mod+F2\)s)59.5 472.4 ms
+(0 g)59.5 462.4 ms
+(\(` -- Refresh i3\)s)59.5 452.4 ms
+(0.502 0.502 0 r)59.5 442.4 ms
+(\(+ \)59.5 102.4 ms)59.5 432.4 ms
+(0 g)59.5 422.4 ms
+(\(`\)s)59.5 412.4 ms
+(0.753 0 0.753 r)59.5 402.4 ms
+(\(Mod+F3\)s)59.5 392.4 ms
+(0 g)59.5 382.4 ms
+(\(` -- Select screen/display to use\)s)59.5 372.4 ms
+(0.502 0.502 0 r)59.5 362.4 ms
+(\(+ \)59.5 92.4 ms)59.5 352.4 ms
+(0 g)59.5 342.4 ms
+(\(`\)s)59.5 332.4 ms
+(0.753 0 0.753 r)59.5 322.4 ms
+(\(Mod+F4\)s)59.5 312.4 ms
+(0 g)59.5 302.4 ms
+(\(` -- Hibernate \\\(will ask to confirm\\\)\)s)59.5 292.4 ms
+(0.502 0.502 0 r)59.5 282.4 ms
+(\(+ \)59.5 82.4 ms)59.5 272.4 ms
+(0 g)59.5 262.4 ms
+(\(`\)s)59.5 252.4 ms
+(0.753 0 0.753 r)59.5 242.4 ms
+(\(Mod+F5\)s)59.5 232.4 ms
+(0 g)59.5 222.4 ms
+(\(` -- Reset Network Manager, search for new networks\)s)59.5 212.4 ms
+(0.502 0.502 0 r)59.5 202.4 ms
+(\(+ \)59.5 72.4 ms)59.5 192.4 ms
+(0 g)59.5 182.4 ms
+(\(`\)s)59.5 172.4 ms
+(0.753 0 0.753 r)59.5 162.4 ms
+(\(Mod+F6\)s)59.5 152.4 ms
+(0 g)59.5 142.4 ms
+(\(` -- transmission torrent client \\\(cli\\\)\)s)59.5 132.4 ms
+(0.502 0.502 0 r)59.5 122.4 ms
+(\(+ \)59.5 62.4 ms)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(`\)s)59.5 92.4 ms
+(0.753 0 0.753 r)59.5 82.4 ms
+(\(Mod+F7\)s)59.5 72.4 ms
+(0 g)59.5 62.4 ms
+(\(` -- Toggle on/off transmission client via dmenu\)s)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 12 12
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 12)59.5 792.4 ms
+F0 sf
+(0.502 0.502 0 r)59.5 772.4 ms
+(\(+ \)59.5 52.4 ms)59.5 762.4 ms
+(0 g)59.5 752.4 ms
+(\(`\)s)59.5 742.4 ms
+(0.753 0 0.753 r)59.5 732.4 ms
+(\(Mod+F8\)s)59.5 722.4 ms
+(0 g)59.5 712.4 ms
+(\(` -- Check mail, if\)s)59.5 702.4 ms
+(re sp)59.5 692.4 ms
+0.753 0 0 r
+(%%PageTrailer)59.5 682.4 ms
+(%%Page: 3 3)59.5 672.4 ms
+(%%BeginPageSetup)59.5 662.4 ms
+0 g
+(sv)59.5 652.4 ms
+(0 g)59.5 642.4 ms
+(F0 sf)59.5 632.4 ms
+0.753 0 0 r
+(%%EndPageSetup)59.5 622.4 ms
+0 g
+(F1 sf)59.5 612.4 ms
+(\(i3_guide.rmd                                                                  Page )59.5 602.4 ms
+(3\)59.5 792.4 ms)59.5 592.4 ms
+(F0 sf)59.5 582.4 ms
+(\(  \)59.5 772.4 ms)59.5 572.4 ms
+(0.753 0 0.753 r)59.5 562.4 ms
+(348 ul)59.5 552.4 ms
+(\([mutt-wizard]\\\()59.5 542.4 ms
+0.753 0 0.753 r
+282 ul
+(https://github.com/lukesmithxyz/mutt-wizard\\\)\)s)s
+0 g
+(0 g)59.5 532.4 ms
+(\( is installed\)s)59.5 522.4 ms
+(0.502 0.502 0 r)59.5 512.4 ms
+(\(+ \)59.5 762.4 ms)59.5 502.4 ms
+(0 g)59.5 492.4 ms
+(\(`\)s)59.5 482.4 ms
+(0.753 0 0.753 r)59.5 472.4 ms
+(\(Mod+F9\)s)59.5 462.4 ms
+(0 g)59.5 452.4 ms
+(\(` -- Mount a USB drive/hard drive or Android\)s)59.5 442.4 ms
+(0.502 0.502 0 r)59.5 432.4 ms
+(\(+ \)59.5 752.4 ms)59.5 422.4 ms
+(0 g)59.5 412.4 ms
+(\(`\)s)59.5 402.4 ms
+(0.753 0 0.753 r)59.5 392.4 ms
+(\(Mod+F10\)s)59.5 382.4 ms
+(0 g)59.5 372.4 ms
+(\(` -- Unmount a non-essential drive or Android\)s)59.5 362.4 ms
+(0.502 0.502 0 r)59.5 352.4 ms
+(\(+ \)59.5 742.4 ms)59.5 342.4 ms
+(0 g)59.5 332.4 ms
+(\(`\)s)59.5 322.4 ms
+(0.753 0 0.753 r)59.5 312.4 ms
+(\(Mod+F11\)s)59.5 302.4 ms
+(0 g)59.5 292.4 ms
+(\(` -- Search term on DuckDuckGo\)s)59.5 282.4 ms
+(0.502 0.502 0 r)59.5 272.4 ms
+(\(+ \)59.5 732.4 ms)59.5 262.4 ms
+(0 g)59.5 252.4 ms
+(\(`\)s)59.5 242.4 ms
+(0.753 0 0.753 r)59.5 232.4 ms
+(\(Mod+F12\)s)59.5 222.4 ms
+(0 g)59.5 212.4 ms
+(\(` -- Wifi-menu for selecting the wireless internet source.\)s)59.5 202.4 ms
+(\(##\)59.5 712.4 ms)59.5 192.4 ms
+(F1 sf)59.5 182.4 ms
+(0.753 0 0.753 r)59.5 172.4 ms
+(\( Audio\)s)59.5 162.4 ms
+(F0 sf)59.5 152.4 ms
+(0 g)59.5 142.4 ms
+(\(I use ncmpcpp as a music player, which is a front end for mpd.\)59.5 692.4 ms)59.5 132.4 ms
+(0.502 0.502 0 r)59.5 122.4 ms
+(\(+ \)59.5 672.4 ms)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(`\)s)59.5 92.4 ms
+(0.753 0 0.753 r)59.5 82.4 ms
+(\(Mod+m\)s)59.5 72.4 ms
+(0 g)59.5 62.4 ms
+(\(` -- ncmpcpp music player\)s)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 13 13
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 13)59.5 792.4 ms
+F0 sf
+(0.502 0.502 0 r)59.5 772.4 ms
+(\(+ \)59.5 662.4 ms)59.5 762.4 ms
+(0 g)59.5 752.4 ms
+(\(`\)s)59.5 742.4 ms
+(0.753 0 0.753 r)59.5 732.4 ms
+(\(Mod+.\)s)59.5 722.4 ms
+(0 g)59.5 712.4 ms
+(\(` -- Next track\)s)59.5 702.4 ms
+(0.502 0.502 0 r)59.5 692.4 ms
+(\(+ \)59.5 652.4 ms)59.5 682.4 ms
+(0 g)59.5 672.4 ms
+(\(`\)s)59.5 662.4 ms
+(0.753 0 0.753 r)59.5 652.4 ms
+(\(Mod+,\)s)59.5 642.4 ms
+(0 g)59.5 632.4 ms
+(\(` -- Previous track\)s)59.5 622.4 ms
+(0.502 0.502 0 r)59.5 612.4 ms
+(\(+ \)59.5 642.4 ms)59.5 602.4 ms
+(0 g)59.5 592.4 ms
+(\(`\)s)59.5 582.4 ms
+(0.753 0 0.753 r)59.5 572.4 ms
+(\(Mod+<\)s)59.5 562.4 ms
+(0 g)59.5 552.4 ms
+(\(` -- Restart track\)s)59.5 542.4 ms
+(0.502 0.502 0 r)59.5 532.4 ms
+(\(+ \)59.5 632.4 ms)59.5 522.4 ms
+(0 g)59.5 512.4 ms
+(\(`\)s)59.5 502.4 ms
+(0.753 0 0.753 r)59.5 492.4 ms
+(\(Mod+p\)s)59.5 482.4 ms
+(0 g)59.5 472.4 ms
+(\(` -- Pause\)s)59.5 462.4 ms
+(0.502 0.502 0 r)59.5 452.4 ms
+(\(+ \)59.5 622.4 ms)59.5 442.4 ms
+(0 g)59.5 432.4 ms
+(\(`\)s)59.5 422.4 ms
+(0.753 0 0.753 r)59.5 412.4 ms
+(\(Mod+M\)s)59.5 402.4 ms
+(0 g)59.5 392.4 ms
+(\(` -- Mute all audio\)s)59.5 382.4 ms
+(0.502 0.502 0 r)59.5 372.4 ms
+(\(+ \)59.5 612.4 ms)59.5 362.4 ms
+(0 g)59.5 352.4 ms
+(\(`\)s)59.5 342.4 ms
+(0.753 0 0.753 r)59.5 332.4 ms
+(\(Mod+v\)s)59.5 322.4 ms
+(0 g)59.5 312.4 ms
+(\(` -- visualizer\)s)59.5 302.4 ms
+(0.502 0.502 0 r)59.5 292.4 ms
+(\(+ \)59.5 602.4 ms)59.5 282.4 ms
+(0 g)59.5 272.4 ms
+(\(`\)s)59.5 262.4 ms
+(0.753 0 0.753 r)59.5 252.4 ms
+(\(Mod+-\)s)59.5 242.4 ms
+(0 g)59.5 232.4 ms
+(\(` -- Decrease volume \\\(holding shift increases amount\\\)\)s)59.5 222.4 ms
+(0.502 0.502 0 r)59.5 212.4 ms
+(\(+ \)59.5 592.4 ms)59.5 202.4 ms
+(0 g)59.5 192.4 ms
+(\(`\)s)59.5 182.4 ms
+(0.753 0 0.753 r)59.5 172.4 ms
+(\(Mod++\)s)59.5 162.4 ms
+(0 g)59.5 152.4 ms
+(\(` -- Increase volume \\\(holding shift increases amount\\\)\)s)59.5 142.4 ms
+(0.502 0.502 0 r)59.5 132.4 ms
+(\(+ \)59.5 582.4 ms)59.5 122.4 ms
+(0 g)59.5 112.4 ms
+(\(`\)s)59.5 102.4 ms
+(0.753 0 0.753 r)59.5 92.4 ms
+(\(Mod+[\)s)59.5 82.4 ms
+(0 g)59.5 72.4 ms
+(\(` -- Back 10 seconds \\\(holding shift increases amount\\\)\)s)59.5 62.4 ms
+(0.502 0.502 0 r)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 14 14
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 14)59.5 792.4 ms
+F0 sf
+(\(+ \)59.5 572.4 ms)59.5 772.4 ms
+(0 g)59.5 762.4 ms
+(\(`\)s)59.5 752.4 ms
+(0.753 0 0.753 r)59.5 742.4 ms
+(\(Mod+]\)s)59.5 732.4 ms
+(0 g)59.5 722.4 ms
+(\(` -- Forward 10 seconds \\\(holding shift increases amount\\\)\)s)59.5 712.4 ms
+(0.502 0.502 0 r)59.5 702.4 ms
+(\(+ \)59.5 562.4 ms)59.5 692.4 ms
+(0 g)59.5 682.4 ms
+(\(`\)s)59.5 672.4 ms
+(0.753 0 0.753 r)59.5 662.4 ms
+(\(Mod+A\)s)59.5 652.4 ms
+(0 g)59.5 642.4 ms
+(\(` -- ncpamixer \\\(general volume sink/source control\\\)\)s)59.5 632.4 ms
+(\(##\)59.5 542.4 ms)59.5 622.4 ms
+(F1 sf)59.5 612.4 ms
+(0.753 0 0.753 r)59.5 602.4 ms
+(\( Workspaces\)s)59.5 592.4 ms
+(F0 sf)59.5 582.4 ms
+(0 g)59.5 572.4 ms
+(\(There are ten workspaces. They work just like those in vanilla i3 with some\)59.5 52)59.5 562.4 ms
+(2.4 ms)59.5 552.4 ms
+(\(additions.\)59.5 512.4 ms)59.5 542.4 ms
+(0.502 0.502 0 r)59.5 532.4 ms
+(\(+ \)59.5 492.4 ms)59.5 522.4 ms
+(0 g)59.5 512.4 ms
+(\(`\)s)59.5 502.4 ms
+(0.753 0 0.753 r)59.5 492.4 ms
+(\(Mod+\\\(Number\\\)\)s)59.5 482.4 ms
+(0 g)59.5 472.4 ms
+(\(` -- Go to that number workspace\)s)59.5 462.4 ms
+(0.502 0.502 0 r)59.5 452.4 ms
+(\(+ \)59.5 482.4 ms)59.5 442.4 ms
+(0 g)59.5 432.4 ms
+(\(`\)s)59.5 422.4 ms
+(0.753 0 0.753 r)59.5 412.4 ms
+(\(Mod+Shift+\\\(Number\\\)\)s)59.5 402.4 ms
+(0 g)59.5 392.4 ms
+(\(` -- Send window to that workspace\)s)59.5 382.4 ms
+(0.502 0.502 0 r)59.5 372.4 ms
+(\(+ \)59.5 472.4 ms)59.5 362.4 ms
+(0 g)59.5 352.4 ms
+(\(`\)s)59.5 342.4 ms
+(0.753 0 0.753 r)59.5 332.4 ms
+(\(Mod+Tab\)s)59.5 322.4 ms
+(0 g)59.5 312.4 ms
+(\(` -- Go to previous workspace\)s)59.5 302.4 ms
+(0.502 0.502 0 r)59.5 292.4 ms
+(\(+ \)59.5 462.4 ms)59.5 282.4 ms
+(0 g)59.5 272.4 ms
+(\(`\)s)59.5 262.4 ms
+(0.753 0 0.753 r)59.5 252.4 ms
+(\(Mod+g\)s)59.5 242.4 ms
+(0 g)59.5 232.4 ms
+(\(` -- Go to left workspace\)s)59.5 222.4 ms
+(0.502 0.502 0 r)59.5 212.4 ms
+(\(+ \)59.5 452.4 ms)59.5 202.4 ms
+(0 g)59.5 192.4 ms
+(\(`\)s)59.5 182.4 ms
+(0.753 0 0.753 r)59.5 172.4 ms
+(\(Mod+;\)s)59.5 162.4 ms
+(0 g)59.5 152.4 ms
+(\(` -- Go to right workspace\)s)59.5 142.4 ms
+(0.502 0.502 0 r)59.5 132.4 ms
+(\(+ \)59.5 442.4 ms)59.5 122.4 ms
+(0 g)59.5 112.4 ms
+(\(`\)s)59.5 102.4 ms
+(0.753 0 0.753 r)59.5 92.4 ms
+(\(Mod+Shift+Delete\)s)59.5 82.4 ms
+(0 g)59.5 72.4 ms
+(\(` -- "Porno-mode" Press this key sequence if you want to hide\)s)59.5 62.4 ms
+(\(  what you have on your screen. Moves to a totally new workspace, mutes sound,\)59.5)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 15 15
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 15)59.5 792.4 ms
+F0 sf
+( 432.4 ms)59.5 772.4 ms
+(\(  pauses music and brings up distraction windows.\)59.5 422.4 ms)59.5 762.4 ms
+(\(##\)59.5 402.4 ms)59.5 752.4 ms
+(F1 sf)59.5 742.4 ms
+(0.753 0 0.753 r)59.5 732.4 ms
+(\( Recording\)s)59.5 722.4 ms
+(F0 sf)59.5 712.4 ms
+(0 g)59.5 702.4 ms
+(\(I use scrot and ffmpeg to make different recordings of the desktop and audio.\)59.5 )59.5 692.4 ms
+(382.4 ms)59.5 682.4 ms
+(\(All of these recording shortcuts will output into `\)59.5 372.4 ms)59.5 672.4 ms
+(0.753 0 0.753 r)59.5 662.4 ms
+(\(~\)s)59.5 652.4 ms
+(0 g)59.5 642.4 ms
+(\(`, and will not overwrite\)s)59.5 632.4 ms
+(\(previous recordings as their names are based on their exact times.\)59.5 362.4 ms)59.5 622.4 ms
+(0.502 0.502 0 r)59.5 612.4 ms
+(\(+ \)59.5 342.4 ms)59.5 602.4 ms
+(0 g)59.5 592.4 ms
+(\(`\)s)59.5 582.4 ms
+(0.753 0 0.753 r)59.5 572.4 ms
+(\(PrintScreen\)s)59.5 562.4 ms
+(0 g)59.5 552.4 ms
+(\(` -- Take a scrot screenshot\)s)59.5 542.4 ms
+(0.502 0.502 0 r)59.5 532.4 ms
+(\(+ \)59.5 332.4 ms)59.5 522.4 ms
+(0 g)59.5 512.4 ms
+(\(`\)s)59.5 502.4 ms
+(0.753 0 0.753 r)59.5 492.4 ms
+(\(Shift+PrintScreen\)s)59.5 482.4 ms
+(0 g)59.5 472.4 ms
+(\(` -- Take a scrot screenshot of only selected window\)s)59.5 462.4 ms
+(0.502 0.502 0 r)59.5 452.4 ms
+(\(+ \)59.5 322.4 ms)59.5 442.4 ms
+(0 g)59.5 432.4 ms
+(\(`\)s)59.5 422.4 ms
+(0.753 0 0.753 r)59.5 412.4 ms
+(\(Mod+PrintScreen\)s)59.5 402.4 ms
+(0 g)59.5 392.4 ms
+(\(` -- Opens dmenu menu to select kind of audio/video recording\)s)59.5 382.4 ms
+(0.502 0.502 0 r)59.5 372.4 ms
+(\(+ \)59.5 312.4 ms)59.5 362.4 ms
+(0 g)59.5 352.4 ms
+(\(`\)s)59.5 342.4 ms
+(0.753 0 0.753 r)59.5 332.4 ms
+(\(Mod+Delete\)s)59.5 322.4 ms
+(0 g)59.5 312.4 ms
+(\(` -- Kills any recording started in the above way.\)s)59.5 302.4 ms
+(0.502 0.502 0 r)59.5 292.4 ms
+(\(+ \)59.5 302.4 ms)59.5 282.4 ms
+(0 g)59.5 272.4 ms
+(\(`\)s)59.5 262.4 ms
+(0.753 0 0.753 r)59.5 252.4 ms
+(\(Mod+ScrollLock\)s)59.5 242.4 ms
+(0 g)59.5 232.4 ms
+(\(` -- Turn on and off screenkey \\\(if installed\\\) for visual typing dis\)s)59.5 222.4 ms
+(\(play\)59.5 292.4 ms)59.5 212.4 ms
+(0.502 0.502 0 r)59.5 202.4 ms
+(\(+ \)59.5 282.4 ms)59.5 192.4 ms
+(0 g)59.5 182.4 ms
+(\(`\)s)59.5 172.4 ms
+(0.753 0 0.753 r)59.5 162.4 ms
+(\(Mod+Shift+c\)s)59.5 152.4 ms
+(0 g)59.5 142.4 ms
+(\(` -- Toggles a webcam in the bottom right for screencasting.\)s)59.5 132.4 ms
+(\(##\)59.5 262.4 ms)59.5 122.4 ms
+(F1 sf)59.5 112.4 ms
+(0.753 0 0.753 r)59.5 102.4 ms
+(\( Other buttons\)s)59.5 92.4 ms
+(F0 sf)59.5 82.4 ms
+(0 g)59.5 72.4 ms
+(\(I've mapped those extra buttons that some keyboards have \\\(play and pause\)59.5 242.)59.5 62.4 ms
+(4 ms)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 16 16
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 16)59.5 792.4 ms
+F0 sf
+(\(buttons, screen brightness, email, web browsing buttons, etc.\\\) to what you\)59.5 23)59.5 772.4 ms
+(2.4 ms)59.5 762.4 ms
+(\(would expect.\)59.5 222.4 ms)59.5 752.4 ms
+(\(#\)59.5 202.4 ms)59.5 742.4 ms
+(F1 sf)59.5 732.4 ms
+(0.753 0 0.753 r)59.5 722.4 ms
+(\( Special traits of this system\)s)59.5 712.4 ms
+(F0 sf)59.5 702.4 ms
+(0 g)59.5 692.4 ms
+(\(##\)59.5 182.4 ms)59.5 682.4 ms
+(F1 sf)59.5 672.4 ms
+(0.753 0 0.753 r)59.5 662.4 ms
+(\( Easy config access\)s)59.5 652.4 ms
+(F0 sf)59.5 642.4 ms
+(0 g)59.5 632.4 ms
+(\(Open a terminal and type `\)59.5 162.4 ms)59.5 622.4 ms
+(0.753 0 0.753 r)59.5 612.4 ms
+(\(bf\)s)59.5 602.4 ms
+(0 g)59.5 592.4 ms
+(\(`. This will open a file where you will see\)s)59.5 582.4 ms
+(\(customizable pairs of key shortcuts and config files and other important text\)59.5 )59.5 572.4 ms
+(152.4 ms)59.5 562.4 ms
+(\(files. Enter any of these shortcuts in bash or ranger to immediately open the\)59.5 )59.5 552.4 ms
+(142.4 ms)59.5 542.4 ms
+(\(file in vim.\)59.5 132.4 ms)59.5 532.4 ms
+(\(You may add new entries here and they will be refreshed when you save the file\)59.5)59.5 522.4 ms
+( 112.4 ms)59.5 512.4 ms
+(\(in vim. This will take effect immediately once you start a new instance of bash\)59.)59.5 502.4 ms
+(5 102.4 ms)59.5 492.4 ms
+(\(or ranger or reload your previous sessions.\)59.5 92.4 ms)59.5 482.4 ms
+(\(##\)59.5 72.4 ms)59.5 472.4 ms
+(F1 sf)59.5 462.4 ms
+(0.753 0 0.753 r)59.5 452.4 ms
+(\( Folder and config shortcuts\)s)59.5 442.4 ms
+(F0 sf)59.5 432.4 ms
+(0 g)59.5 422.4 ms
+(\(Open a terminal and type `\)59.5 52.4 ms)59.5 412.4 ms
+(0.753 0 0.753 r)59.5 402.4 ms
+(\(bd\)s)59.5 392.4 ms
+(0 g)59.5 382.4 ms
+(\(`. This opens a file when you can keep and create\)s)59.5 372.4 ms
+(re sp)59.5 362.4 ms
+0.753 0 0 r
+(%%PageTrailer)59.5 352.4 ms
+(%%Page: 4 4)59.5 342.4 ms
+(%%BeginPageSetup)59.5 332.4 ms
+0 g
+(sv)59.5 322.4 ms
+(0 g)59.5 312.4 ms
+(F0 sf)59.5 302.4 ms
+0.753 0 0 r
+(%%EndPageSetup)59.5 292.4 ms
+0 g
+(F1 sf)59.5 282.4 ms
+(\(i3_guide.rmd                                                                  Page )59.5 272.4 ms
+(4\)59.5 792.4 ms)59.5 262.4 ms
+(F0 sf)59.5 252.4 ms
+(\(directory/folder shortcuts. There are only a few here now, because I don't know\)59.)59.5 242.4 ms
+(5 772.4 ms)59.5 232.4 ms
+(\(what your folder structure is going to look like, but on my machine, I have 109\)59.)59.5 222.4 ms
+(5 762.4 ms)59.5 212.4 ms
+(\(and growing.\)59.5 752.4 ms)59.5 202.4 ms
+(\(Each line has a shortcut key/keys and its target. These can be used in several\)59.5)59.5 192.4 ms
+( 732.4 ms)59.5 182.4 ms
+(\(applications. In bash, simply press `\)59.5 722.4 ms)59.5 172.4 ms
+(0.753 0 0.753 r)59.5 162.4 ms
+(\(d\)s)59.5 152.4 ms
+(0 g)59.5 142.4 ms
+(\(`)59.5 132.4 ms
+0.753 0 0.753 r
+(, the shortcut for )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 122.4 ms
+(\(~/Documents\)s)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(` and you\)s)59.5 92.4 ms
+(\(will cd there \\\(and automatically `\)59.5 712.4 ms)59.5 82.4 ms
+(0.753 0 0.753 r)59.5 72.4 ms
+(\(ls -a\)s)59.5 62.4 ms
+(0 g)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 17 17
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 17)59.5 792.4 ms
+F0 sf
+(\(`\\\).\)s)59.5 772.4 ms
+(\(ranger works similarly. When in ranger, just press `\)59.5 692.4 ms)59.5 762.4 ms
+(0.753 0 0.753 r)59.5 752.4 ms
+(\(g\)s)59.5 742.4 ms
+(0 g)59.5 732.4 ms
+(\(` then the shortcut of the\)s)59.5 722.4 ms
+(\(folder you want to go to. You may also press `\)59.5 682.4 ms)59.5 712.4 ms
+(0.753 0 0.753 r)59.5 702.4 ms
+(\(t\)s)59.5 692.4 ms
+(0 g)59.5 682.4 ms
+(\(` plus the shortcut to open a\)s)59.5 672.4 ms
+(\(new tab there. `\)59.5 672.4 ms)59.5 662.4 ms
+(0.753 0 0.753 r)59.5 652.4 ms
+(\(m\)s)59.5 642.4 ms
+(0 g)59.5 632.4 ms
+(\(` plus the shortcut moves the selected files to the folder and\)s)59.5 622.4 ms
+(\(`\)59.5 662.4 ms)59.5 612.4 ms
+(0.753 0 0.753 r)59.5 602.4 ms
+(\(Y\)s)59.5 592.4 ms
+(0 g)59.5 582.4 ms
+(\(` copies them there. **Get good at this. It will make management of even the\)s)59.5 572.4 ms
+(\(most complex file system easy.**\)59.5 652.4 ms)59.5 562.4 ms
+(\(Lastly qutebrowser implements these shortcuts as well. When you see a file or\)59.5 )59.5 552.4 ms
+(632.4 ms)59.5 542.4 ms
+(\(image you want to download, press `\)59.5 622.4 ms)59.5 532.4 ms
+(0.753 0 0.753 r)59.5 522.4 ms
+(\(;\)s)59.5 512.4 ms
+(0 g)59.5 502.4 ms
+(\(` followed by the folder shortcut and\)s)59.5 492.4 ms
+(\(qutebrowser will let you select the file with its hint system. The file will\)59.5 6)59.5 482.4 ms
+(12.4 ms)59.5 472.4 ms
+(\(then download to the directory you chose.\)59.5 602.4 ms)59.5 462.4 ms
+(\(##\)59.5 582.4 ms)59.5 452.4 ms
+(F1 sf)59.5 442.4 ms
+(0.753 0 0.753 r)59.5 432.4 ms
+(\( Dynamically constructed configs\)s)59.5 422.4 ms
+(F0 sf)59.5 412.4 ms
+(0 g)59.5 402.4 ms
+(\(Each time you save changes to either the config shortcut file or the folder\)59.5 56)59.5 392.4 ms
+(2.4 ms)59.5 382.4 ms
+(\(shortcut file in vim, vim will automatically run a bash script that updates\)59.5 55)59.5 372.4 ms
+(2.4 ms)59.5 362.4 ms
+(\(your bash/ranger config, allowing you to use your new shortcuts in your next\)59.5 5)59.5 352.4 ms
+(42.4 ms)59.5 342.4 ms
+(\(instance of bash/ranger or after resourcing your rc files.\)59.5 532.4 ms)59.5 332.4 ms
+(\(#\)59.5 512.4 ms)59.5 322.4 ms
+(F1 sf)59.5 312.4 ms
+(0.753 0 0.753 r)59.5 302.4 ms
+(\( Other Housekeeping\)s)59.5 292.4 ms
+(F0 sf)59.5 282.4 ms
+(0 g)59.5 272.4 ms
+(\(##\)59.5 492.4 ms)59.5 262.4 ms
+(F1 sf)59.5 252.4 ms
+(0.753 0 0.753 r)59.5 242.4 ms
+(\( How do I change the background/wallpaper?\)s)59.5 232.4 ms
+(F0 sf)59.5 222.4 ms
+(0 g)59.5 212.4 ms
+(\(The easiest way is to use ranger, navigate to the file you want as your\)59.5 472.4 )59.5 202.4 ms
+(ms)59.5 192.4 ms
+(\(background, and press `\)59.5 462.4 ms)59.5 182.4 ms
+(0.753 0 0.753 r)59.5 172.4 ms
+(\(bg\)s)59.5 162.4 ms
+(0 g)59.5 152.4 ms
+(\(`. To be specific, i3 will always be looking to the\)s)59.5 142.4 ms
+(\(file in `\)59.5 452.4 ms)59.5 132.4 ms
+(0.753 0 0.753 r)59.5 122.4 ms
+(\(~/.config/wall.png\)s)59.5 112.4 ms
+(0 g)59.5 102.4 ms
+(\(` for the wallpaper, this ranger command copies the\)s)59.5 92.4 ms
+(\(given file there and reruns feh to update it.\)59.5 442.4 ms)59.5 82.4 ms
+(\(##\)59.5 422.4 ms)59.5 72.4 ms
+(F1 sf)59.5 62.4 ms
+(0.753 0 0.753 r)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 18 18
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 18)59.5 792.4 ms
+F0 sf
+(\( How do I set up my email?\)s)59.5 772.4 ms
+(F0 sf)59.5 762.4 ms
+(0.502 0.502 0 r)59.5 752.4 ms
+(\(1. \)59.5 402.4 ms)59.5 742.4 ms
+(0 g)59.5 732.4 ms
+(\(Create a GPG private/public key pair if you haven't already.\)s)59.5 722.4 ms
+(0.502 0.502 0 r)59.5 712.4 ms
+(\(2. \)59.5 392.4 ms)59.5 702.4 ms
+(0 g)59.5 692.4 ms
+(\(Download the mutt-wizard repository to the mutt config directory:\)s)59.5 682.4 ms
+(0.753 0 0.753 r)59.5 672.4 ms
+(\(```\)59.5 372.4 ms)59.5 662.4 ms
+(\(git clone )59.5 652.4 ms
+0.753 0 0.753 r
+258 ul
+(https://github.com/lukesmithxyz/mutt-wizard)s
+0 g
+( ~/.config/mutt\)59.5 362.4 ms)s
+(\(```\)59.5 352.4 ms)59.5 642.4 ms
+(0.502 0.502 0 r)59.5 632.4 ms
+(\(3. \)59.5 332.4 ms)59.5 622.4 ms
+(0 g)59.5 612.4 ms
+(\(There run `\)s)59.5 602.4 ms
+(0.753 0 0.753 r)59.5 592.4 ms
+(\(mutt-wizard.sh\)s)59.5 582.4 ms
+(0 g)59.5 572.4 ms
+(\(` and follow the directions, specifically:\)s)59.5 562.4 ms
+(\(   a. Add an account.\)59.5 322.4 ms)59.5 552.4 ms
+(\(   b. Run `\)59.5 312.4 ms)59.5 542.4 ms
+(0.753 0 0.753 r)59.5 532.4 ms
+(\(offlineimap -o\)s)59.5 522.4 ms
+(0 g)59.5 512.4 ms
+(\(` in the terminal.\)s)59.5 502.4 ms
+(\(   c. Select the "Autodetect mailboxes" option.\)59.5 302.4 ms)59.5 492.4 ms
+(\(You should then be able to open your mail in mutt with Mod+e. And this is\)59.5 282.)59.5 482.4 ms
+(4 ms)59.5 472.4 ms
+(\(somewhat of a miracle considering all of the moving pieces that have come\)59.5 272.)59.5 462.4 ms
+(4 ms)59.5 452.4 ms
+(\(together to make this happen. Honestly, people give me all this credit for\)59.5 262)59.5 442.4 ms
+(.4 ms)59.5 432.4 ms
+(\(making LARBS, but the mutt-wizard is probably my favorite work.\)59.5 252.4 ms)59.5 422.4 ms
+(\(You can, through the mutt-wizard, schedule automatic mail checks every several\)59.5)59.5 412.4 ms
+( 232.4 ms)59.5 402.4 ms
+(\(minutes. You can also press `\)59.5 222.4 ms)59.5 392.4 ms
+(0.753 0 0.753 r)59.5 382.4 ms
+(\(Mod-F8\)s)59.5 372.4 ms
+(0 g)59.5 362.4 ms
+(\(` at any time to check for new mail in your\)s)59.5 352.4 ms
+(\(accounts.  You might also want to run `\)59.5 212.4 ms)59.5 342.4 ms
+(0.753 0 0.753 r)59.5 332.4 ms
+(\(notmuch setup\)s)59.5 322.4 ms
+(0 g)59.5 312.4 ms
+(\(`)59.5 302.4 ms
+0.753 0 0.753 r
+( to set )s
+0 g
+(`\)s)s
+(0.753 0 0.753 r)59.5 292.4 ms
+(\(notmuch\)s)59.5 282.4 ms
+(0 g)59.5 272.4 ms
+(\(` up as a\)s)59.5 262.4 ms
+(\(mail indexer. This will allow quick searches of your mail in mutt with `\)59.5 202.4)59.5 252.4 ms
+( ms)59.5 242.4 ms
+(0.753 0 0.753 r)59.5 232.4 ms
+(\(ctrl+f\)s)59.5 222.4 ms
+(0 g)59.5 212.4 ms
+(\(`.\)s)59.5 202.4 ms
+(\(The mailsync script will update the notmuch database once you do this.\)59.5 192.4 m)59.5 192.4 ms
+(s)59.5 182.4 ms
+(\(##\)59.5 172.4 ms)59.5 172.4 ms
+(F1 sf)59.5 162.4 ms
+(0.753 0 0.753 r)59.5 152.4 ms
+(\( How do I set up my music?\)s)59.5 142.4 ms
+(F0 sf)59.5 132.4 ms
+(0 g)59.5 122.4 ms
+(\(By default, mpd, the music daemon assumes that `\)59.5 152.4 ms)59.5 112.4 ms
+(0.753 0 0.753 r)59.5 102.4 ms
+(\(~/Music\)s)59.5 92.4 ms
+(0 g)59.5 82.4 ms
+(\(` is your music\)s)59.5 72.4 ms
+(\(directory. This can be changed in `\)59.5 142.4 ms)59.5 62.4 ms
+(0.753 0 0.753 r)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 19 19
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 19)59.5 792.4 ms
+F0 sf
+(\(~/.config/mpd/mpd.conf\)s)59.5 772.4 ms
+(0 g)59.5 762.4 ms
+(\(`. When you add music\)s)59.5 752.4 ms
+(\(to your music folder, you may have to run `\)59.5 132.4 ms)59.5 742.4 ms
+(0.753 0 0.753 r)59.5 732.4 ms
+(\(mpc up\)s)59.5 722.4 ms
+(0 g)59.5 712.4 ms
+(\(` in the terminal to update\)s)59.5 702.4 ms
+(\(the database. mpd is controlled by ncmpcpp, which is accessible by Mod+m.\)59.5 122.)59.5 692.4 ms
+(4 ms)59.5 682.4 ms
+(\(#\)59.5 102.4 ms)59.5 672.4 ms
+(F1 sf)59.5 662.4 ms
+(0.753 0 0.753 r)59.5 652.4 ms
+(\( Contact\)s)59.5 642.4 ms
+(F0 sf)59.5 632.4 ms
+(0.502 0.502 0 r)59.5 622.4 ms
+(\(+ \)59.5 82.4 ms)59.5 612.4 ms
+(0.753 0 0.753 r)59.5 602.4 ms
+(282 ul)59.5 592.4 ms
+(\([luke@lukesmith.xyz]\\\()59.5 582.4 ms
+0.753 0 0.753 r
+174 ul
+(mailto:luke@lukesmith.xyz\\\)\)s)s
+0 g
+(0 g)59.5 572.4 ms
+(\( -- For questions!\)s)59.5 562.4 ms
+(0.502 0.502 0 r)59.5 552.4 ms
+(\(+ \)59.5 62.4 ms)59.5 542.4 ms
+(0.753 0 0.753 r)59.5 532.4 ms
+(270 ul)59.5 522.4 ms
+(\([)59.5 512.4 ms
+0.753 0 0.753 r
+288 ul
+(https://lukesmith.xyz]\\\(http://lukesmith.xyz\\\)\)s)s
+0 g
+(0 g)59.5 502.4 ms
+(\( -- For stalking!\)s)59.5 492.4 ms
+(re sp)59.5 482.4 ms
+0.753 0 0 r
+(%%PageTrailer)59.5 472.4 ms
+(%%Page: 5 5)59.5 462.4 ms
+(%%BeginPageSetup)59.5 452.4 ms
+0 g
+(sv)59.5 442.4 ms
+(0 g)59.5 432.4 ms
+(F0 sf)59.5 422.4 ms
+0.753 0 0 r
+(%%EndPageSetup)59.5 412.4 ms
+0 g
+(F1 sf)59.5 402.4 ms
+(\(i3_guide.rmd                                                                  Page )59.5 392.4 ms
+(5\)59.5 792.4 ms)59.5 382.4 ms
+(F0 sf)59.5 372.4 ms
+(0.502 0.502 0 r)59.5 362.4 ms
+(\(+ \)59.5 772.4 ms)59.5 352.4 ms
+(0.753 0 0.753 r)59.5 342.4 ms
+(228 ul)59.5 332.4 ms
+(\([PayPal]\\\()59.5 322.4 ms
+0.753 0 0.753 r
+192 ul
+(https://paypal.me/LukeMSmith\\\)\)s)s
+0 g
+(0 g)59.5 312.4 ms
+(\( -- For gratitude!\)s)59.5 302.4 ms
+(0.502 0.502 0 r)59.5 292.4 ms
+(\(+ \)59.5 752.4 ms)59.5 282.4 ms
+(0.753 0 0.753 r)59.5 272.4 ms
+(240 ul)59.5 262.4 ms
+(\([Patreon]\\\()59.5 252.4 ms
+0.753 0 0.753 r
+198 ul
+(https://patreon.com/lukesmith\\\)\)s)s
+0 g
+(0 g)59.5 242.4 ms
+(\( -- For support!\)s)59.5 232.4 ms
+(0.502 0.502 0 r)59.5 222.4 ms
+(\(+ \)59.5 732.4 ms)59.5 212.4 ms
+(0.753 0 0.753 r)59.5 202.4 ms
+(294 ul)59.5 192.4 ms
+(\([My Github Page]\\\()59.5 182.4 ms
+0.753 0 0.753 r
+210 ul
+(https://github.com/LukeSmithxyz\\\)\)s)s
+0 g
+(0 g)59.5 172.4 ms
+(\( -- For the code behind it!\)s)59.5 162.4 ms
+(0.502 0.502 0 r)59.5 152.4 ms
+(\(+ \)59.5 712.4 ms)59.5 142.4 ms
+(0.753 0 0.753 r)59.5 132.4 ms
+(210 ul)59.5 122.4 ms
+(\([RSS]\\\()59.5 112.4 ms
+0.753 0 0.753 r
+192 ul
+(http://lukesmith.xyz/rss.xml\\\)\)s)s
+0 g
+(0 g)59.5 102.4 ms
+(\( -- For even better updates!\)s)59.5 92.4 ms
+(re sp)59.5 82.4 ms
+0.753 0 0 r
+(%%PageTrailer)59.5 72.4 ms
+(%%Trailer)59.5 62.4 ms
+(%%Pages: 5)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 20 20
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(i3_guide.rmd                                                                 Page 20)59.5 792.4 ms
+F0 sf
+0.753 0 0 r
+(%%EOF)59.5 772.4 ms
+0 g
+(\004)59.5 762.4 ms
+re sp
+%%PageTrailer
+%%Trailer
+%%Pages: 20
+%%EOF
+
