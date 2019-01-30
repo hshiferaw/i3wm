@@ -1,2 +1,1 @@
- i3wm and Polybar settings 
-
+Personal i3wm configuration based on LARBS (Luke Smith) dotfiles and by others..
