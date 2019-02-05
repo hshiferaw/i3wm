@@ -74,7 +74,8 @@ exec --no-startup-id xrandr --output HDMI-2 --mode 1920x1200--right-of eDP-1
 # sending workspace to a second display
 bindsym $mod+F5 move workspace to output right
 # Conky startup
-exec --no-startup-id start_conky_solarized
+#exec --no-startup-id conky_maia
+#exec --no-startup-id start_conky_green
 # tap to click
 exec --no-startup-id  xinput set-prop 13 279 1
 # Auto switch
@@ -111,7 +112,9 @@ client.urgent		$darkred	$darkred	$black		$darkred		$darkred
 client.background $transparent
 
 bar {
-	font pango:mono 11
+#	font pango:mono 11
+#        font pango:IosevkaNerdFont 10
+        font pango:SauceCode Pro Nerd Font Black 11
 	colors {
 #			background $darkblack
                         background $transparent
@@ -119,7 +122,7 @@ bar {
 			separator $cyan
 			focused_workspace  $blue #e39866 $darkblack
         		active_workspace   $darkmagenta $cyan $darkblack
-      			inactive_workspace $darkblack $darkblack $white
+      			inactive_workspace $transparent $transparent $darkred
         		urgent_workspace   $green $darkred $cyan
 		}
 	status_command i3blocks
@@ -259,16 +262,16 @@ bindsym $mod+slash		split vertical ;; exec $term
 bindsym $mod+Shift+slash	kill
 bindsym $mod+backslash		workspace back_and_forth
 
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws1 "1:I"
+set $ws2 "2:II"
+set $ws3 "3:III"
+set $ws4 "4:IV"
+set $ws5 "5:V"
+set $ws6 "6:VI"
+set $ws7 "7:VII"
+set $ws8 "8:VIII"
+set $ws9 "9:IX"
+set $ws10 "10:X"
 
 # switch to workspace
 bindsym $mod+1		workspace $ws1
@@ -323,6 +326,7 @@ bindsym $mod+F8		exec --no-startup-id ~/.config/mutt/etc/mailsync.sh
 bindsym $mod+F9		exec --no-startup-id dmenumount
 bindsym $mod+F10	exec --no-startup-id dmenuumount
 bindsym $mod+F11        exec --no-startup-id rofi -show run
+bindsym F9        exec --no-startup-id rofi -show run
 #bindsym $mod+F11	exec --no-startup-id ducksearch
 bindsym $mod+F12	exec $term -e nmtui
 
