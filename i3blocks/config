@@ -7,11 +7,11 @@ command=cat ~/.recordingicon
 interval=once
 signal=9
 
-[music]
-label=🎼
-interval=once
-signal=11
-color=#d3869b
+#[music]
+#label=🎼
+#interval=once
+#signal=11
+#color=#E88939
 
 [news]
 label=📰
@@ -39,17 +39,17 @@ signal=12
 [memory]
 interval=30
 label=🧠
-color=#92ff82
+color=#21b089
 
 [cpu]
 interval=15
 label=💻
-color=#92ff82
+color=#589df6
 
 [volume]
 interval=once
 signal=10
-color=#ffca77
+color=#E88939
 
 #[diskspace]
 #interval=60
@@ -72,7 +72,7 @@ interval=5
 [clock]
 label=📅
 interval=30
-color=#f94277
+color=#21b089
 
 [internet]
 interval=10
